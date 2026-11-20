@@ -12,10 +12,10 @@ window.SITE_CONFIG = {
     // updated tagline text (big pill)
     tagline: "Course Project: Smart Cities and Communities",
 
-    studentName: "Yohan Mohammadi",
-    program: "Program / Department",
+    studentName: "Justin Tang",
+    program: "BTech Automation Engineering Technology / Faculty of Engineering",
     university: "McMaster University, Canada",
-    email: "your.email@example.com"
+    email: "tangt34@mcmaster.ca"
   },
 
   disclaimer: {
@@ -63,7 +63,7 @@ window.SITE_CONFIG = {
     heroVideoPoster: "",
     heroVideoAlt: "Autoplay preview video (academic project)",
     videoCaption:
-      "Autoplay preview (≈20 seconds): raw video → Traffic Simulation → Blender → Unity → Results"
+      "Autoplay preview (≈20 seconds): Netedit -> Sumo Simulation -> raw video -> edited video"
   },
 
   caseStudy: {
@@ -71,26 +71,26 @@ window.SITE_CONFIG = {
 
     backgroundTitle: "Background",
     backgroundBullets: [
-			"Global freight rail is growing and remains strategically important.",
-			"Rail carries about 18% of EU inland freight, 36% in the U.S., and 27% in India.",
-			"Road dominates many freight systems, so rail often receives less attention.",
-			"In Canada, rail accounted for 10.5% of international merchandise trade value in 2024."
+			"Digital roadway-and-traffic modeling at the study intersection",
+			"Evaluating the current HDV situation",
+			"Testing the CAV traffic hypothesis",
+			"Candidate major-road signal-timing intervention",
     ],
 
-    problemTitle: "Problem Statement",
+    problemTitle: "Analysis of Simulated Existing Traffic Conditions, a 100% CAV Future, and a Candidate Intervention at the Eglinton–Scarlett Intersection",
     problemBullets: [
-			"Railway operations are hard to assess.",
-			"3D asset creation is time-consuming.",
-			"2D models lack immersion.",
-			"Results are difficult to communicate."
+			"Problem 1: Establishing a characterized baseline",
+			"Problem 2: Comparing HDV and CAV behavior",
+			"Problem 3: Evaluating HDV and CAV Speed-Density Diagrams",
+			"Problem 4: Verifying a candidate intervention",
     ],
 
     objectivesTitle: "Project Objectives",
     objectivesBullets: [
-			"Simulate train scheduling, signaling, and capacity in SUMO.",
-			"Create 3D digital assets using generative AI and blender.",
-			"Create 3D rail environment and VR video in Unity.",
-			"Present results in different styles through KPIs, figures, and a showcase website."
+			"Develop a digital road network and traffic model for the existing Eglinton–Scarlett intersection",
+			"Characterize the 100% HDV baseline and the 100% CAV scenario",
+			"Compare and explain the selected edge’s speed–density relationship",
+			"Select, justify, implement, and evaluate the major-road signal timing "
     ]
   },
 
@@ -98,23 +98,31 @@ window.SITE_CONFIG = {
     title: "Methodology",
     steps: [
       {
-        title: "Step 1: Train Scheduling and Signaling (SUMO Simulation)",
-				text: "Build the rail network and test routing, signaling, and timetables.",
+        title: "Step 1: Roadway-network development and HDV traffic baseline",
+				text: "The SUMO roadway network was developed for the Eglinton Avenue West–Scarlett Road intersection, with edge E96 selected for speed–density analysis.",
+		  		text: "The HDV baseline uses a 29-second signal cycle and simulated traffic demand to evaluate existing traffic conditions.",
+		  		text: "Scenario 1 introduces 100% CAVs using the CACC model to compare traffic performance against the HDV baseline using the Greenshields speed–density model.",
         image: "assets/img/image2.jpg"
       },
       {
-				title: "Step 2: Digital Twin Assets Developement (Blender)",
-				text: "Create a 3D railway assets using generative AI and blender.",
+				title: "Step 2: Controlled 100% CAV simulation",
+				text: "Scenario 1 uses SUMO’s CACC model to compare CAV and HDV speed–density relationships under similar traffic conditions.",
+		  		text: "The simulation assumes 100% CAV penetration with a total traffic demand of 2,400 vehicles per hour.",
+		  		text: "The Greenshields model is applied to evaluate traffic performance on road segment E96.",
         image: "assets/img/image3.jpg"
       },
       {
-				title: "Step 3: Immersive VR Visualization (Unity)",
-				text: "Create a 3D railway scene and produce a VR 360-degree video.",
+				title: "Step 3: Justification and implementation of the major-road signal-timing intervention",
+				text: "Scenario 2 evaluates the effect of reallocating two seconds of signal green time while maintaining a 29-second cycle to assess potential traffic improvements under HDV conditions.",
+		  		text: "Phase 0 increases from 17 to 19 seconds, while phase 2 decreases from 6 to 4 seconds.",
+		  		text: "The intervention aims to improve traffic speed and reduce congestion on the selected road segment, E96, assuming phase 0 serves this approach.",
         image: "assets/img/image4.jpg"
       },
       {
 				title: "Step 4: Results & Communication (Figures + Showcase Website)",
 				text: "Summarize results using figures, KPIs, and the showcase website.",
+		  		text: "Compare the traffic performance of HDV, CAV, and signal-timing intervention scenarios using speed–density graphs.",
+		  		text: "Present key findings and simulation outcomes through an accessible showcase website.",
         image: "assets/img/image5.jpg"
       }
     ]
