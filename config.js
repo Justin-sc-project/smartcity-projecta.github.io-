@@ -124,7 +124,7 @@ footer: {
     title: "Methodology Steps (Demo Modules)",
     modules: [
       {
-        title: "Module 1: Train Scheduling & Signaling (SUMO)",
+        title: "Step 1: Roadway-network development and HDV traffic baseline",
         bullets: [
 				  { text: "The SUMO roadway network was developed for the Eglinton Avenue West–Scarlett Road intersection, with edge E96 selected for speed–density analysis." },
           { text: "The HDV baseline uses a 29-second signal cycle and simulated traffic demand to evaluate existing traffic conditions." },
@@ -133,7 +133,7 @@ footer: {
         image: "assets/img/image2.jpg"
       },
       {
-        title: "Module 2: Digital Twin Assets Developement (Blender)",
+        title: "Step 2: Controlled 100% CAV simulation",
         bullets: [
           { text: "Scenario 1 uses SUMO’s CACC model to compare CAV and HDV speed–density relationships under similar traffic conditions." },
           { text: "The simulation assumes 100% CAV penetration with a total traffic demand of 2,400 vehicles per hour." },
@@ -142,7 +142,7 @@ footer: {
         image: "assets/img/image3.jpg"
       },
       {
-        title: "Module 3: Immersive VR Visualization (Unity)",
+        title: "Step 3: Justification and implementation of the major-road signal-timing intervention",
         bullets: [
 				  { text: "Scenario 2 evaluates the effect of reallocating two seconds of signal green time while maintaining a 29-second cycle to assess potential traffic improvements under HDV conditions." },
           { text: "Phase 0 increases from 17 to 19 seconds, while phase 2 decreases from 6 to 4 seconds." },
@@ -151,7 +151,7 @@ footer: {
         image: "assets/img/image4.jpg"
       },
       {
-        title: "Module 4: Results & Communication",
+        title: "Step 4: Results & Communication (Figures + Showcase Website)",
         bullets: [
           { text: "Summarize results using figures, KPIs, and the showcase website." },
           { text: "Compare the traffic performance of HDV, CAV, and signal-timing intervention scenarios using speed–density graphs." },
