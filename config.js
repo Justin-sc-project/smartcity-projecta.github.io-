@@ -58,7 +58,7 @@ footer: {
 
   intro: {
     projectTitleLabel: "Project Title",
-    projectTitle: "Development of Digital Twin of a Railway Corridor Using Unity Game Engine and SUMO Traffic Simulation",
+    projectTitle: "Analysis of Simulated Existing Traffic Conditions, a 100% CAV Future, and a Candidate Intervention at the Eglinton–Scarlett Intersection",
     heroVideo: "assets/video/video.mp4",
     heroVideoPoster: "",
     heroVideoAlt: "Autoplay preview video (academic project)",
@@ -77,7 +77,7 @@ footer: {
 			"Candidate major-road signal-timing intervention",
     ],
 
-    problemTitle: "Analysis of Simulated Existing Traffic Conditions, a 100% CAV Future, and a Candidate Intervention at the Eglinton–Scarlett Intersection",
+    problemTitle: "Problem Statement",
     problemBullets: [
 			"Problem 1: Establishing a characterized baseline",
 			"Problem 2: Comparing HDV and CAV behavior",
